@@ -15,3 +15,11 @@ echo "
 Rolling...
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled
 "
+
+echo "Second Line"
+echo " 
+Rolling...
+$(( RANDOM % 6 + 1)),$(( RANDOM % 6 + 1)),$(( RANDOM % 6 +1)),$(( RANDOM % 6 + 1)) rolled 
+20 sided Rolling
+$(( RANDOM % 20 + 1))rolled
+"
